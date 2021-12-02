@@ -5,6 +5,7 @@ int main(){
     cout<<"To print Butterfly Pattern, input n...\n";
     int n;
     cin>>n;
+    n=2*n;
     for(int r=1; r<=n; r++){
         for(int c=1; c<=n; c++){
             if(c>r&&c<=n-r||c>n-r+1&&c<r){
